@@ -1,0 +1,22 @@
+{
+  "name": "vsgitmgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jxgitop": "./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.1",
+    "chokidar": "^3.3.1",
+    "commander": "^4.0.1",
+    "cross-spawn": "^7.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
